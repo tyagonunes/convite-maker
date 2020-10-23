@@ -1,9 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import CategoryList from '../../components/CategoryList';
+
+import { Container } from './styles';
 
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <Container>
+      <CategoryList />
+      <CategoryList />
+    </Container>
+  );
 }
 
 export default Home;
